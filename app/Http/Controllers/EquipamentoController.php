@@ -23,7 +23,7 @@ class EquipamentoController extends Controller
        // Visualizando os registros
        // $this->objEquipamento=new Equipamento();
     }
-    
+
 
     /**
      * Display a listing of the resource.
@@ -62,21 +62,21 @@ class EquipamentoController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
-    {
-        $cad=$this->objEquipamento->create([
-            'tipo_equipamento' =>$request->tipo_equipamento,
-            'modelo' =>$request->modelo,
-            'nome' =>$request->nome,
-            'observacao' =>$request->observacao
+            {
+            $cad=$this->objEquipamento->create([
+                'tipo_equipamento' =>$request->tipo_equipamento,
+                'modelo' =>$request->modelo,
+                'nome' =>$request->nome,
+                'observacao' =>$request->observacao
 
 
-        ]);
+            ]);
         if($cad){return redirect('equipamentos');}
-        
 
-    
+
+
     }
-    
+
     /**
      * Display the specified resource.
      *
@@ -88,7 +88,7 @@ class EquipamentoController extends Controller
 
         //dd($equipamento->id);
         return view('equipamentos.show')->with('equipamentos', $equipamentos);
-        
+
     }
 
     /**

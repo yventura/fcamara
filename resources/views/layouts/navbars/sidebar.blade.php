@@ -6,7 +6,7 @@
   -->
   <div class="logo">
     <a href="#" class="simple-text logo-normal">
-      {{ __('LCSPMG') }}
+      {{ __('FIFO') }}
     </a>
   </div>
   <div class="sidebar-wrapper">
@@ -64,42 +64,6 @@
             </li>
           </ul>
         </div>
-      </li>
-      <li class="nav-item {{ ($activePage == 'laudosIndex' || $activePage == 'laudoAdd') ? ' active' : '' }}">
-        <a class="nav-link" data-toggle="collapse" href="#laudos" aria-expanded="true">
-        <i class="material-icons">devices</i>
-          <p>{{ __('Laudos') }}
-            <b class="caret"></b>
-          </p>
-        </a>
-        <div class="collapse {{ ($activePage == 'laudoAdd' || $activePage == 'laudosIndex') ? 'show' : '' }}" id="laudos">
-          <ul class="nav">
-            <li class="nav-item{{ $activePage == 'laudoAdd' ? ' active' : '' }}">
-              <a class="nav-link" href="{{ route('laudos.create') }}">
-              <span class="sidebar-mini"> CL </span>
-                <span class="sidebar-normal">{{ __('Criar Laudo') }} </span>
-              </a>
-            </li>
-            <li class="nav-item{{ $activePage == 'laudosIndex' ? ' active' : '' }}">
-              <a class="nav-link" href="{{ route('laudos.index') }}">
-              <span class="sidebar-mini"> LL </span>
-                <span class="sidebar-normal"> {{ __('Lista de Laudos') }} </span>
-              </a>
-            </li>
-            <li class="nav-item{{ $activePage == 'laudos/envia' ? ' active' : '' }}">
-              <a class="nav-link" href="{{ route('laudos/envia') }}">
-              <span class="sidebar-mini"> EL </span>
-                <span class="sidebar-normal"> {{ __('Enviar Laudo') }} </span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </li>
-      <li class="nav-item{{ $activePage == 'page/relatorios' ? ' active' : '' }}">
-        <a class="nav-link" href="{{ route('page/relatorios') }}">
-          <i class="material-icons">bar_chart</i>
-            <p>{{ __('Relatórios') }}</p>
-        </a>
       </li>
     </ul>
   </div>

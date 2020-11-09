@@ -7,7 +7,7 @@
   <div class="content">
     <div class="container-fluid">
       <form method="post" action="{{ route('equipamentos.store') }}" autocomplete="off" class="form-horizontal">
-      @csrf 
+      @csrf
       <!-- Equipamentos -->
       <div class="row">
         <div class="col-md-12">
@@ -29,23 +29,23 @@
                           </select>
                         </div>
                       </div>
-                      @php
-                        @switch('select_player')
-                          case 1:    
-                            <div class="col-sm-12">
-                              <div class="form-group">
-                                <input class="form-control" name="player1" id="player1" type="text" placeholder="{{ __('Player 1') }}"/>
-                              </div>
-                            </div>
-                          break;
-                          case 2:
-                            <div class="col-sm-12">
-                              <div class="form-group">
-                                <input class="form-control" name="player2" id="player2" type="text" placeholder="{{ __('Player 2') }}"/>
-                              </div>
-                            </div>
-                          break;
-                      @endphp
+{{--                      @php--}}
+{{--                        @switch('select_player')--}}
+{{--                          case 1:    --}}
+{{--                            <div class="col-sm-12">--}}
+{{--                              <div class="form-group">--}}
+{{--                                <input class="form-control" name="player1" id="player1" type="text" placeholder="{{ __('Player 1') }}"/>--}}
+{{--                              </div>--}}
+{{--                            </div>--}}
+{{--                          break;--}}
+{{--                          case 2:--}}
+{{--                            <div class="col-sm-12">--}}
+{{--                              <div class="form-group">--}}
+{{--                                <input class="form-control" name="player2" id="player2" type="text" placeholder="{{ __('Player 2') }}"/>--}}
+{{--                              </div>--}}
+{{--                            </div>--}}
+{{--                          break;--}}
+{{--                      @endphp--}}
                       <div class="col-sm-12">
                         <div class="form-group">
                           <select class="btn btn-success" name="select_game" id="select_game">
@@ -66,7 +66,7 @@
     </div>
   </div>
 @endsection
-<!-- 
+<!--
 <h1 class="text-center">Cadastrar</h1> <hr>
 
 <div class="col-8 m-auto">
@@ -85,4 +85,3 @@
 
 
 
- 

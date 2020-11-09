@@ -1,4 +1,4 @@
-@extends('layouts.app', ['activePage' => 'profile', 'titlePage' => __('User Profile')])
+@extends('layouts.app', ['activePage' => 'profile', 'titlePage' => __(' ')])
 
 @section('content')
   <div class="content">
@@ -11,8 +11,7 @@
 
             <div class="card ">
               <div class="card-header card-header-primary">
-                <h4 class="card-title">{{ __('Edit Profile') }}</h4>
-                <p class="card-category">{{ __('User information') }}</p>
+                <h4 class="card-title">{{ __('Editar Perfil') }}</h4>
               </div>
               <div class="card-body ">
                 @if (session('status'))
@@ -28,10 +27,10 @@
                   </div>
                 @endif
                 <div class="row">
-                  <label class="col-sm-2 col-form-label">{{ __('Name') }}</label>
+                  <label class="col-sm-2 col-form-label">{{ __('Nickname') }}</label>
                   <div class="col-sm-7">
                     <div class="form-group{{ $errors->has('name') ? ' has-danger' : '' }}">
-                      <input class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" id="input-name" type="text" placeholder="{{ __('Name') }}" value="{{ old('name', auth()->user()->name) }}" required="true" aria-required="true"/>
+                      <input class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="apelido" id="input-nickname" type="text" placeholder="{{ __('Nickname...') }}" required="true" aria-required="true"/>
                       @if ($errors->has('name'))
                         <span id="name-error" class="error text-danger" for="input-name">{{ $errors->first('name') }}</span>
                       @endif
@@ -42,7 +41,7 @@
                   <label class="col-sm-2 col-form-label">{{ __('Email') }}</label>
                   <div class="col-sm-7">
                     <div class="form-group{{ $errors->has('email') ? ' has-danger' : '' }}">
-                      <input class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" id="input-email" type="email" placeholder="{{ __('Email') }}" value="{{ old('email', auth()->user()->email) }}" required />
+                      <input class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" id="input-email" type="email" placeholder="{{ __('Email') }}" required />
                       @if ($errors->has('email'))
                         <span id="email-error" class="error text-danger" for="input-email">{{ $errors->first('email') }}</span>
                       @endif
