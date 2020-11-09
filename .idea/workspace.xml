@@ -20,40 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e013b7b7-a0f9-4677-810d-79af40386c1c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/controle_laboratorio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/controle_laboratorio.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Fila01Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fila01.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/EquipamentoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/EquipamentoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/LaudoController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SendController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Laudo.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/LaudosEquipamento.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/SendLaudo.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/TipoLaudo.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_07_06_021504_create_laudos_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_07_17_004636_create_tipo_laudos_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_07_18_184911_create_laudos_equipamentos_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/TiposLaudosTableSeeder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Equipamento.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/EquipamentoController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_07_19_094642_create_equipamentos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_07_19_094642_create_fila01_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/EquipamentoTableSeeder.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/equipamentos/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/equipamentos/add.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/equipamentos/add.bladecopy.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/laudos/add.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/laudos/edit.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/laudos/envia.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/laudos/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/laudos/show.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/footers/auth.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/footers/auth.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/footers/guest.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/footers/guest.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/navbars/navs/guest.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/navbars/navs/guest.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/equipamentos/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/fila01/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/equipamentos/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/fila01/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/navbars/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/navbars/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/relatorios.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/profile/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/users/nuser.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -208,7 +185,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604356621501</updated>
       <workItem from="1604356622576" duration="78000" />
-      <workItem from="1604940291615" duration="4121000" />
+      <workItem from="1604940291615" duration="5605000" />
     </task>
     <servers />
   </component>
@@ -227,6 +204,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="701" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604944948210">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="701" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/-1366.305.1366.728@0.0.1920.1040" timestamp="1604944948210" />
     <state x="658" y="261" key="run.anything.popup" timestamp="1604940330162">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

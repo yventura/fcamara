@@ -1,4 +1,4 @@
-@extends('layouts.app', ['activePage' => 'equipamentoIndex', 'titlePage' => __('')])
+@extends('layouts.app', ['activePage' => 'fila01Index', 'titlePage' => __('')])
 
 @section('content')
 <div class="content">
@@ -38,7 +38,7 @@
                     <button type="submit" class="btn btn-success">{{ __('Sair da Fila') }}</button>
                   </td>
                 </tr>
-              <tr>  
+              <tr>
                 <td>3</td>
                 <td>Mauricio Neves</td>
                   <td>

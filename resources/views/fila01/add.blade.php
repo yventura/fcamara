@@ -1,4 +1,4 @@
-@extends('layouts.app', ['activePage' => 'equipamentosAdd', 'titlePage' => __(' ')])
+@extends('layouts.app', ['activePage' => 'fila01Add', 'titlePage' => __(' ')])
 
 
 
@@ -6,9 +6,9 @@
 
   <div class="content">
     <div class="container-fluid">
-      <form method="post" action="{{ route('equipamentos.store') }}" autocomplete="off" class="form-horizontal">
+      <form method="post" action="{{ route('fila01.store') }}" autocomplete="off" class="form-horizontal">
       @csrf
-      <!-- Equipamentos -->
+      <!-- Fila01  -->
       <div class="row">
         <div class="col-md-12">
           <div class="card ">
@@ -70,9 +70,9 @@
 <h1 class="text-center">Cadastrar</h1> <hr>
 
 <div class="col-8 m-auto">
-<form name="formCad" id="formCad" method="post" action="{{ route('equipamentos.store') }}">
+<form name="formCad" id="formCad" method="post" action="{{ route('fila01.store') }}">
 @csrf
-<input class="form-control" type="text" name="tipo_equipamento" id="tipo_equipamento" placeholder="Tipo de Equipamento:"/>
+<input class="form-control" type="text" name="tipo_equipamento" id="tipo_equipamento" placeholder="Tipo de fila01:"/>
 <input class="form-control" type="text" name="modelo" id="modelo" placeholder="Modelo:" />
 <input class="form-control" type="text" name="nome" id="nome" placeholder="Nome:" />
 <input class="form-control" type="text" name="observacao" id="observacao" placeholder="Observação:" />

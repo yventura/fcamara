@@ -18,13 +18,13 @@
         </a>
   </li>
       <li class="nav-item {{ ($activePage == 'profile' || $activePage == 'user-management') ? ' active' : '' }}">
-        <a class="nav-link" data-toggle="collapse" href="#laravelExample" aria-expanded="true">
+        <a class="nav-link" data-toggle="collapse" href="#editprofile" aria-expanded="true">
         <i class="material-icons">persons</i>
           <p>{{ __('Perfil') }}
             <b class="caret"></b>
           </p>
         </a>
-        <div class="collapse {{ ($activePage == 'profile' || $activePage == 'user-management') ? 'show' : '' }}" id="laravelExample">
+        <div class="collapse {{ ($activePage == 'profile' || $activePage == 'user-management') ? 'show' : '' }}" id="editprofile">
           <ul class="nav">
             <li class="nav-item{{ $activePage == 'profile' ? ' active' : '' }}">
               <a class="nav-link" href="{{ route('profile.edit') }}">
@@ -41,25 +41,25 @@
           </ul>
         </div>
       </li>
-      <li class="nav-item {{ ($activePage == 'equipamentosIndex' || $activePage == 'equipamentosAdd') ? ' active' : '' }}">
-        <a class="nav-link" data-toggle="collapse" href="#hardwares" aria-expanded="true">
+      <li class="nav-item {{ ($activePage == 'fila01Index' || $activePage == 'fila01Add') ? ' active' : '' }}">
+        <a class="nav-link" data-toggle="collapse" href="#fila01" aria-expanded="true">
         <i class="material-icons">devices</i>
-          <p>{{ __('Hardwares') }}
+          <p>{{ __('Fila 01 - FIFA') }}
             <b class="caret"></b>
           </p>
         </a>
-        <div class="collapse {{ ($activePage == 'equipamentosIndex' || $activePage == 'equipamentosAdd') ? 'show' : '' }}" id="hardwares">
+        <div class="collapse {{ ($activePage == 'fila01Index' || $activePage == 'fila01Add') ? 'show' : '' }}" id="fila01">
           <ul class="nav">
-            <li class="nav-item{{ $activePage == 'equipamentosAdd' ? ' active' : '' }}">
-              <a class="nav-link" href="{{ route('equipamentos.create') }}">
+            <li class="nav-item{{ $activePage == 'fila01Add' ? ' active' : '' }}">
+              <a class="nav-link" href="{{ route('fila01.create') }}">
                 <i class="material-icons">add_to_queue</i>
-                <span class="sidebar-normal">{{ __('Adicionar Equipamento') }} </span>
+                <span class="sidebar-normal">{{ __('Entrar na fila') }} </span>
               </a>
             </li>
-            <li class="nav-item{{ $activePage == 'equipamentosIndex' ? ' active' : '' }}">
-              <a class="nav-link" href="{{ route('equipamentos.index') }}">
+            <li class="nav-item{{ $activePage == 'fila01Index' ? ' active' : '' }}">
+              <a class="nav-link" href="{{ route('fila01.index') }}">
                 <i class="material-icons">list_alt</i>
-                <span class="sidebar-normal"> {{ __('Listar Equipamentos') }} </span>
+                <span class="sidebar-normal"> {{ __('Posição Fila') }} </span>
               </a>
             </li>
           </ul>
