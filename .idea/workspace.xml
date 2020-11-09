@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e013b7b7-a0f9-4677-810d-79af40386c1c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/Equipamento.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Equipamento.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/EquipamentoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/EquipamentoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/LaudoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/LaudoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/equipamentos/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/equipamentos/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/equipamentos/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/equipamentos/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/laudos/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/laudos/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/navbars/navs/auth.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/navbars/navs/auth.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/navbars/navs/guest.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/navbars/navs/guest.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/navbars/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/navbars/sidebar.blade.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectId" id="1jkmmPpk7tcXCTt2s7EJWFX1BK4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e013b7b7-a0f9-4677-810d-79af40386c1c" name="Default Changelist" comment="" />
+      <created>1604356621501</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604356621501</updated>
+      <workItem from="1604356622576" duration="78000" />
+    </task>
+    <servers />
+  </component>
+</project>
