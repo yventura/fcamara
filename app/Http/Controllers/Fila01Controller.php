@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\fila01;
+use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\DB;
@@ -12,11 +13,13 @@ class fila01Controller extends Controller
     //Visualizando os Registros
 
     private $objFila01;
+    private $objUser;
 
 
     public function __construct()
     {
-    $this->objFila01= new fila01();
+    $this->objFila01 = new fila01();
+    $this->objUser = new User();
 
 
         $this->middleware('auth');
@@ -31,14 +34,7 @@ class fila01Controller extends Controller
      */
     public function index()
     {
-
-        /*
-        exibe os registros
-        */
-        $data['fila01'] = fila01::all();
-
-        //dd($data);
-        return view('fila01.index')->with($data);
+        return view('fila01.index');
     }
 
     /**
@@ -48,9 +44,7 @@ class fila01Controller extends Controller
      */
     public function create()
     {
-
-        $fila_01=$this->objFila01->all();
-        return view('fila01.add', compact('fila_01'));
+        return view('fila01.add');
     }
 
     /**
@@ -63,15 +57,11 @@ class fila01Controller extends Controller
             {
             $cad=$this->objFila01->create([
                 'player' =>$request->player,
-                'game' =>$request->game,
-                'status' =>$request->status
+                'game' =>$request->game
 
 
             ]);
         if($cad){return redirect('fila01');}
-
-
-
     }
 
     /**

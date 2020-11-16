@@ -14,10 +14,9 @@ class Createfila01Table extends Migration
     public function up()
     {
         Schema::create('fila01', function (Blueprint $table) {
-            $table->id();
+            $table->increments('id');
             $table->string('player');
             $table->string('game');
-            $table->string('status');
             $table->timestamps();
         });
     }

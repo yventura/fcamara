@@ -10,6 +10,6 @@ class fila01 extends Model
 
 
     protected $fillable = [
-        'id', 'player', 'game', 'status'
+        'id', 'player', 'game'
     ];
 }

@@ -20,25 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e013b7b7-a0f9-4677-810d-79af40386c1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Fila01Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fila01.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Equipamento.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/EquipamentoController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_07_19_094642_create_equipamentos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_07_19_094642_create_fila01_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/EquipamentoTableSeeder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/equipamentos/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/fila01/add.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/equipamentos/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/fila01/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/navbars/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/navbars/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Fila01Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Fila01Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fila01.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/fila01.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_07_19_094642_create_fila01_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_07_19_094642_create_fila01_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/fila01/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/fila01/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/fila01/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/fila01/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -165,10 +160,18 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Projeto_fcamera-P-gina_Inicial" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\fcamara\resources\views\fila_sinuca_escritorio" />
+      <recent name="C:\xampp\htdocs\fcamara\resources\views\Fila_ps4_descompressao" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -186,6 +189,11 @@
       <updated>1604356621501</updated>
       <workItem from="1604356622576" duration="78000" />
       <workItem from="1604940291615" duration="5605000" />
+      <workItem from="1605400968564" duration="7636000" />
+      <workItem from="1605449932101" duration="558000" />
+      <workItem from="1605463808725" duration="6841000" />
+      <workItem from="1605481917191" duration="305000" />
+      <workItem from="1605490857523" duration="6208000" />
     </task>
     <servers />
   </component>
@@ -202,15 +210,24 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="701" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604944948210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="701" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/-1366.305.1366.728@0.0.1920.1040" timestamp="1604944948210" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1605398539443">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1366.305.1366.728@0.0.1920.1040" timestamp="1605398539443" />
     <state x="658" y="261" key="run.anything.popup" timestamp="1604940330162">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="658" y="261" key="run.anything.popup/0.0.1920.1040/-1366.305.1366.728@0.0.1920.1040" timestamp="1604940330162" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605402956137">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1366.305.1366.728@0.0.1920.1040" timestamp="1605402956137" />
   </component>
 </project>
